@@ -6,7 +6,7 @@
 
 🌱 This project was bootstrapped with-redux-react and TypeScript with CSS Tailwind 🌱
 
-![Landing-Page](https://user-images.githubusercontent.com/50789325/170897457-b7b44016-eaec-4824-889f-2595435f64b2.png)
+<!-- ![Landing-Page](https://user-images.githubusercontent.com/50789325/170897457-b7b44016-eaec-4824-889f-2595435f64b2.png) -->
 
 
 
