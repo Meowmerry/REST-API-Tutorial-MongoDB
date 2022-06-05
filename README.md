@@ -1,4 +1,4 @@
-#  ~  👋 Inflencer-Agencies-Project  ~  👋
+#  ~  👋 REST-API-Tutorial-MongoDB ~  👋
 
 ## 🌱 Summary 🌱 
 
