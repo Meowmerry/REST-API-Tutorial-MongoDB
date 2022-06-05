@@ -2,13 +2,6 @@
 
 ## 🌱 Summary 🌱 
 
-###🌱  Inflencer-Project 🌱
-
-🌱 This project was bootstrapped with-redux-react and TypeScript with CSS Tailwind 🌱
-
-
-
-
 
 # Available Scripts
 In the project directory, you can run:
