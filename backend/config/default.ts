@@ -1,5 +1,5 @@
 export default {
-  port: 1337,
+  port: 1330,
   host: "localhost",
   //dbUri: "mongodb://localhost:27017/rest-api-tutorial",
   dbUri:

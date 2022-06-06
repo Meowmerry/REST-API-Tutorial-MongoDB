@@ -4,6 +4,7 @@ import { FilterQuery, UpdateQuery } from "mongoose";
 import SessionModel, { SessionDocument } from "../models/session.model";
 import { verifyJwt, signJwt } from "../utils/jwt.utils";
 import { findUser } from "./user.service";
+import { decode } from "punycode";
 
 export async function createSession(userId: string, userAgent: string) {
   const session = await SessionModel.create({ user: userId, userAgent });
@@ -28,7 +29,6 @@ export async function reIssueAccessToken({
   refreshToken: string;
 }) {
   const { decoded } = verifyJwt(refreshToken);
-
   if (!decoded || !get(decoded, "session")) return false;
 
   const session = await SessionModel.findById(get(decoded, "session"));
